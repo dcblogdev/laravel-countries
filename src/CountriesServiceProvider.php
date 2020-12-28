@@ -1,6 +1,6 @@
 <?php
 
-namespace Daveismyname\Countries;
+namespace Dcblogdev\Countries;
 
 use Illuminate\Support\ServiceProvider;
 
