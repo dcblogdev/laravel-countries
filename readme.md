@@ -8,7 +8,7 @@ A Laravel countries list package
 Via Composer
 
 ``` bash
-$ composer require daveismyname/laravel-countries
+$ composer require dcblogdev/laravel-countries
 ```
 
 In Laravel 5.5 the service provider will automatically get registered. In older versions of the framework just add the service provider in config/app.php file:
@@ -16,7 +16,7 @@ In Laravel 5.5 the service provider will automatically get registered. In older 
 ```
 'providers' => [
     // ...
-    Daveismyname\Countries\CountriesServiceProvider::class,
+    Dcblogdev\Countries\CountriesServiceProvider::class,
 ];
 ```
 
@@ -26,7 +26,7 @@ In Laravel 5.5 the service provider will automatically get registered. In older 
 In a controller import the class:
 
 ```
-use Daveismyname\Countries\Facades\Countries;
+use Dcblogdev\Countries\Facades\Countries;
 ```
 
 In a view or closure call the facade:
@@ -48,7 +48,7 @@ Please see the [changelog](changelog.md) for more information on what has change
 
 Contributions are welcome and will be fully credited.
 
-Contributions are accepted via Pull Requests on [Github](https://github.com/daveismyname/laravel-countries).
+Contributions are accepted via Pull Requests on [Github](https://github.com/dcblogdev/laravel-countries).
 
 ## Pull Requests
 
