@@ -1,31 +1,31 @@
 {
-    "name": "daveismyname/laravel-countries",
+    "name": "dcblogdev/laravel-countries",
     "description": "A Laravel countries list package",
     "license": "MIT",
     "authors": [
         {
             "name": "David Carr",
-            "email": "dave@daveismyname.com",
-            "homepage": "https://daveismyname.blog"
+            "email": "dave@dcblog.dev",
+            "homepage": "https://dcblog.dev"
         }
     ],
-    "homepage": "https://github.com/daveismyname/laravel-countries",
+    "homepage": "https://github.com/dcblogdev/laravel-countries",
     "keywords": [
         "Laravel",
         "Countries"
     ],
     "autoload": {
         "psr-4": {
-            "Daveismyname\\Countries\\": "src/"
+            "Dcblogdev\\Countries\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Daveismyname\\Countries\\CountriesServiceProvider"
+                "Dcblogdev\\Countries\\CountriesServiceProvider"
             ],
             "aliases": {
-                "Countries": "Daveismyname\\Countries\\Facades\\Countries"
+                "Countries": "Dcblogdev\\Countries\\Facades\\Countries"
             }
         }
     }
