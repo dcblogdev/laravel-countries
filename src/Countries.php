@@ -1,5 +1,5 @@
 <?php
-namespace Daveismyname\Countries;
+namespace Dcblogdev\Countries;
 
 /**
  * Class to work with countries
