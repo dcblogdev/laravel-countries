@@ -1,6 +1,6 @@
 <?php
 
-namespace Daveismyname\Countries\Facades;
+namespace Dcblogdev\Countries\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
