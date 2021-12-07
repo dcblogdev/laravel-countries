@@ -5,10 +5,39 @@
 
 A Laravel countries list package
 
-# Documentation and install instructions 
-[https://dcblog.dev/docs/laravel-countries](https://dcblog.dev/docs/laravel-countries)
+## Installation
 
+Via Composer
 
+```
+composer require dcblogdev/laravel-countries
+```
+
+In Laravel 5.5 the service provider will automatically get registered. In older versions of the framework just add the service provider in config/app.php file:
+
+```php
+'providers' => [
+    // ...
+    Dcblogdev\Countries\CountriesServiceProvider::class,
+];
+```
+
+## Usage
+
+In a controller import the class:
+
+```php
+use Dcblogdev\Countries\Facades\Countries;
+```
+
+In a view or closure call the facade:
+
+This will return an object of countries
+
+```php
+Countries::all();
+```
+ 
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
